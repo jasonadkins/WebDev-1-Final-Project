@@ -11,9 +11,9 @@
     <div id="brand"><a href="/">Tic-Tac-Toe</a></div>
     <nav>
       <ul>
-        <li id="home"><a href="#home">Home</a></li>
-        <li id="history"><a href="#history">History</a></li>
-        <li id="rules"><a href="#rules">Rules</a></li>
+        <li class="home"><a href="#home">Home</a></li>
+        <li class="history"><a href="#history">History</a></li>
+        <li class="rules"><a href="#rules">Rules</a></li>
         <li id="login"><a href="/login" >Login</a></li>
         <li id="signup"><a href="/signup">Signup</a></li>
       </ul>
@@ -23,24 +23,41 @@
       <div class="bar2"></div>
       <div class="bar3"></div>
       <ul class="mobile-menu">
-        <li id="home"><a href="#home">Home</a></li>
-        <li id="history"><a href="#history">History</a></li>
-        <li id="rules"><a href="#rules">Rules</a></li>
-        <li id="login"><a href="/login" >Login</a></li>
-        <li id="signup"><a href="/signup">Signup</a></li>
+        <li class="home"><a href="#home">Home</a></li>
+        <li class="history"><a href="#history">History</a></li>
+        <li class="rules"><a href="#rules">Rules</a></li>
+        <li class="login"><a href="/login" >Login</a></li>
+        <li class="signup"><a href="/signup">Signup</a></li>
       </ul>
     </div>
   </header>
 
-  <div id="home"></div>
-  <div id="history">
+  <div class="home"></div>
+  <div class="history">
     <h1>History</h1>
-    <img src="/images/tic-tac-toe-3.jpeg" alt="Tic-Tac-Toe 1" style="width:1200px;height:600px;">
-  </div id="rules">
-    <h1>Rules</h1>
-  <div>
+    <img src="/images/tic-tac-toe-3.jpeg" alt="Tic-Tac-Toe 1" style="width:600px;height:400px;">
+    <p>
+      First, let’s start with the game. Some ascribe the origin of Tic-Tac-Toe to the ancient Egyptians, but the most concrete ancient record we have of the game is from the Romans, and the game they referred to as terni lapilli, or three pebbles at a time. With this said, the game wasn’t necessarily identical to how we play today. Rather than writing down markings, it’s believed that the Romans would use tokens, pieces, or pebbles, and move them around the grid to represent the different moves. Much like today, you could see terni lapilli grids scrabbled all around ancient Roman cities.
 
+      How the game progressed beyond that is a bit more unclear. Some say there are records of it being played in the Middle Ages, with a mystic attachment to it, but the most concrete reappearance we have of it comes sometime later. In the 18th century in England, record of a children’s game close to Tic-Tac-Toe as we know it first appeared. While there isn’t a concrete understanding of what happened next, most likely the game was passed onto American and other international shores via England’s history of colonization and immigration.
+    </p>
   </div>
+  <div class="rules">
+    <h1>Rules</h1>
+    <img src="/images/tic-tac-toe-3.jpeg" alt="Tic-Tac-Toe 1" style="width:600px;height:400px;">
+    <p>
+      The goal of tic-tac-toe is to be the first player to get three in a row on a 3-by-3 grid or four in a row in a 4-by-4 grid.
+
+To start, one player draws a board, creating a grid of squares, usually 3-by-3 or 4-by-4.
+
+In a 3-by-3 grid game, the player who is playing "X" always goes first. Players alternate placing Xs and Os on the board until either player has three in a row, horizontally, vertically, or diagonally or until all squares on the grid are filled. If a player is able to draw three Xs or three Os in a row, then that player wins. If all squares are filled and neither player has made a complete row of Xs or Os, then the game is a draw.
+
+One of the game's best strategies involves creating a "fork," which is placing your mark in such a way that you have the opportunity to win two ways on your next turn. Your opponent can only block one, thereby, you can win after that.
+
+The gameplay is the same if you are playing on a 4-by-4 grid. The "X" player goes first. And, players alternate placing Xs and Os on the board until a row is completed horizontally, vertically, or diagonally, or all 16 squares are filled. If all 16 squares are filled and neither player has four in a row, the game is a draw.
+    </p>
+  </div>
+
   <div id="game">
     <h1 class="announcement" id="game-status"></h1>
 
