@@ -35,16 +35,57 @@ header {
   color: #09c372;
 }
 
+.h1 {
+  display: flex;
+}
 .home {
-  display:flex;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  justify-content: space-between;
+  vertical-align: middle;
 }
 
 .history {
-  display:flex;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  justify-content: space-between;
+  vertical-align: middle;
 }
-
+.history-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  align-content: flex-start;
+}
+.history-text {
+  display: flex;
+  align-content: flex-end;
+  justify-content: space-between;
+}
 .rules {
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+.rules-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  align-content: flex-start;
+}
+.rules-text {
+  display: flex;
+  align-content: flex-end;
+  justify-content: space-between;
 }
 
 ul {
