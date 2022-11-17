@@ -32,7 +32,7 @@ header {
 }
 
 #brand a {
-  color: #09c372;
+  color:chartreuse
 }
 
 .h1 {
@@ -97,7 +97,7 @@ ul {
 }
 
 ul a {
-  color: green;
+  color:chartreuse
 }
 
 ul li {
@@ -152,7 +152,7 @@ ul li:hover {
 }
 
 .open .bar2 {
-  opacity: 0;
+  opacity: 1.0;
 }
 
 .open .bar3 {
@@ -165,6 +165,7 @@ ul li:hover {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  background-color:#1d1f1d
 }
 
 .mobile-menu {
@@ -180,7 +181,34 @@ ul li:hover {
   margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 576px) {
+  .history-image {
+    display: flex;
+    width: 25%;
+    padding: 2px;
+    flex: 1 1 0%;
+    justify-content: space-evenly;
+  }
+  .history-text {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+    flex: 1 1 0%;
+    justify-content: space-evenly;
+  }
+  .history {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (max-width: 576px) {
   header nav {
     display: none;
   }
