@@ -1,0 +1,5 @@
+This project is building on a working Tic-Tac-Toe game that I have been working on.  Wanted to add some information about the history and rules of the game while have the working game at the bottom of the page that is fully playable.
+
+My navigation bar turns into a hamburger menu at the mobile break point.  It adds a background when the mobile menu is open so you can read the words easier.  The divs also go from rows to columns at the mobile break point.  The images also size down to fit smaller screens.  At the tablet breakpoint the images size up to take advantage of the larger screen.  THe divs also move into rows at the middle breakpoint.  At the max breakpoint the images are max size as well as the divs with the text.
+
+The tic-tac-toe game itself is made primarily from javascript.  The gameboard is made using grid.  The new game and give up buttons change when you hover over them and disable when they are not available.  You can play a full game of tic-tac-toe with someone.  Messages display for the winner and in the even their is a tie.  Once the game is over you can hit new game to play again.
